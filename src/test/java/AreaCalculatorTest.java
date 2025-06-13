@@ -9,7 +9,7 @@ public class AreaCalculatorTest {
 
 	@Test
 	void testCircleArea() {
-		double result = AreaCalculator.calculateArea(ShapeType.CIRCLE, 2);
+		double result = AreaCalculator.calculateArea(ShapeType.sirkel, 4);
 		assertEquals(Math.PI * 4, result, 0.001);
 	}
 
