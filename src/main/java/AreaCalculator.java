@@ -24,3 +24,4 @@ public class AreaCalculator {
 		}
 	}
 }
+throw new IllegalArgumentException("This RECTANGLE needs 2 dimensions (length and width)");
